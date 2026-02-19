@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <conversionRule conversionWord="m"
+                    converterClass="com.kcb.bankmaskingspringbootstarter.logback.LoggingMessageConverter"/>
+    <conversionRule conversionWord="msg"
+                    converterClass="com.kcb.bankmaskingspringbootstarter.logback.LoggingMessageConverter"/>
+    <conversionRule conversionWord="message"
+                    converterClass="com.kcb.bankmaskingspringbootstarter.logback.LoggingMessageConverter"/>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+</configuration>
