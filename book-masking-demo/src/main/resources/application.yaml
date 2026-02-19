@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: book-crud-masking-demo
+pii:
+  masking:
+    enabled: true
+    masking-style: LAST4
+    mask-charactor: "*"
+    fields:
+      - email
+      - phoneNumber
